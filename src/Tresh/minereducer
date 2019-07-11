@@ -1,0 +1,38 @@
+import { applyMiddleware, createStore, combineReducers } from 'redux'
+
+const INITIAL_STATE = {
+  possible: [
+    'Allie',
+    'Gator',
+    'Lizzie',
+    'Reptar',
+  ],
+};
+
+
+const reducer = (state=INITIAL_STATE, action) => {
+  switch (action.type) {
+
+    case 'add':
+      return  [state.current = action.payload]
+
+      case 'read':
+      return [state.current]
+    default:
+      return state;
+  }
+  }
+
+  const store = createStore(reducer);
+
+  const list3 = store.getState()
+  console.log(list3)
+  console.log(Array.of(list3.current))
+
+  const action = {
+  type: 'add',
+  payload: list[0]
+}
+
+store.dispatch(action)
+
