@@ -25,7 +25,7 @@
     "native-base": "^2.12.1",
     "react": "16.8.3",
     "react-chartist": "^0.13.3",
-    "react-native": "0.59.8",
+    "react-native": "0.62.3",
     "react-native-chart-kit": "^2.6.1",
     "react-native-firebase": "^5.3.1",
     "react-native-fusioncharts": "^3.0.0",
