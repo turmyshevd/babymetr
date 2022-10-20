@@ -34,7 +34,7 @@
     "react-native-linear-gradient": "^2.5.4",
     "react-native-paper": "^2.15.2",
     "react-native-range-slider": "^0.1.2",
-    "react-native-reanimated": "^1.0.1",
+    "react-native-reanimated": "^2.10.0",
     "react-native-redash": "^5.0.0",
     "react-native-svg": "^9.4.0",
     "react-native-ui-kitten": "3.1.2",
